@@ -9,6 +9,7 @@ import { products } from '../../products';
 })
 export class ProductDetailComponent implements OnInit {
   product:any
+  
   constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
